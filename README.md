@@ -2,15 +2,35 @@
 
 A new Flutter project.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Current weather information
+- 7-day weather forecast
+- Search for weather by city
+- Display weather conditions with icons
+- Temperature in Celsius and Fahrenheit
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/devfabien/weather_app.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd weather_app
+    ```
+3. Install dependencies:
+    ```sh
+    flutter pub get
+    ```
+4. Run the app:
+    ```sh
+    flutter run
+    ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Dependencies
+
+- [http](https://pub.dev/packages/http) - For making network requests
+- [provider](https://pub.dev/packages/provider) - State management
+- [intl](https://pub.dev/packages/intl) - Internationalization and localization
